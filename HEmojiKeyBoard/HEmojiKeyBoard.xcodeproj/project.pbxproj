@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E4C4E3C1E976D4C007DECD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E3B1E976D4C007DECD2 /* main.m */; };
+		6E4C4E3F1E976D4C007DECD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E3E1E976D4C007DECD2 /* AppDelegate.m */; };
+		6E4C4E421E976D4C007DECD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E411E976D4C007DECD2 /* ViewController.m */; };
+		6E4C4E451E976D4C007DECD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4E431E976D4C007DECD2 /* Main.storyboard */; };
+		6E4C4E471E976D4C007DECD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4E461E976D4C007DECD2 /* Assets.xcassets */; };
+		6E4C4E4A1E976D4C007DECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4E481E976D4C007DECD2 /* LaunchScreen.storyboard */; };
+		6E4C4E551E976D4C007DECD2 /* HEmojiKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E541E976D4C007DECD2 /* HEmojiKeyBoardTests.m */; };
+		6E4C4E601E976D4C007DECD2 /* HEmojiKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E5F1E976D4C007DECD2 /* HEmojiKeyBoardUITests.m */; };
+		6E4C4E8E1E97704C007DECD2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4E741E97704C007DECD2 /* Info.plist */; };
+		6E4C4E8F1E97704C007DECD2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E761E97704C007DECD2 /* MASCompositeConstraint.m */; };
+		6E4C4E901E97704C007DECD2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E791E97704C007DECD2 /* MASConstraint.m */; };
+		6E4C4E911E97704C007DECD2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E7B1E97704C007DECD2 /* MASConstraintMaker.m */; };
+		6E4C4E921E97704C007DECD2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E7D1E97704C007DECD2 /* MASLayoutConstraint.m */; };
+		6E4C4E931E97704C007DECD2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E811E97704C007DECD2 /* MASViewAttribute.m */; };
+		6E4C4E941E97704C007DECD2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E831E97704C007DECD2 /* MASViewConstraint.m */; };
+		6E4C4E951E97704C007DECD2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E851E97704C007DECD2 /* NSArray+MASAdditions.m */; };
+		6E4C4E961E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E881E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		6E4C4E971E97704C007DECD2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E8A1E97704C007DECD2 /* View+MASAdditions.m */; };
+		6E4C4E981E97704C007DECD2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4E8D1E97704C007DECD2 /* ViewController+MASAdditions.m */; };
+		6E4C4EA91E977695007DECD2 /* HEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EA21E977695007DECD2 /* HEmojiCell.m */; };
+		6E4C4EAA1E977695007DECD2 /* HEmojiKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EA41E977695007DECD2 /* HEmojiKeyBoardView.m */; };
+		6E4C4EAB1E977695007DECD2 /* HEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EA61E977695007DECD2 /* HEmojiPageView.m */; };
+		6E4C4EAC1E977695007DECD2 /* HGifFaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EA81E977695007DECD2 /* HGifFaceCell.m */; };
+		6E4C4EAF1E977824007DECD2 /* HGifFacePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EAE1E977824007DECD2 /* HGifFacePageView.m */; };
+		6E4C4EB21E977A13007DECD2 /* HEmojiKindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EB11E977A13007DECD2 /* HEmojiKindCell.m */; };
+		6E4C4EB61E977AEE007DECD2 /* HEmojiFaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EB51E977AEE007DECD2 /* HEmojiFaceModel.m */; };
+		6E4C4EB91E977E1C007DECD2 /* HKindFaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EB81E977E1C007DECD2 /* HKindFaceModel.m */; };
+		6E4C4EBC1E978178007DECD2 /* HKindFaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EBB1E978178007DECD2 /* HKindFaceCell.m */; };
+		6E4C4EBF1E97818E007DECD2 /* HKindEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EBE1E97818E007DECD2 /* HKindEmojiCell.m */; };
+		6E4C4EC21E9B1951007DECD2 /* HEmojiManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4EC11E9B1951007DECD2 /* HEmojiManger.m */; };
+		6E4C4EC71E9B1C43007DECD2 /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4EC41E9B1C43007DECD2 /* Emotion.bundle */; };
+		6E4C4EC81E9B1C43007DECD2 /* emotion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4EC51E9B1C43007DECD2 /* emotion.plist */; };
+		6E4C4EC91E9B1C43007DECD2 /* emotionToText.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4EC61E9B1C43007DECD2 /* emotionToText.plist */; };
+		6E4C4ECB1E9B2A4B007DECD2 /* Emoji.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4ECA1E9B2A4B007DECD2 /* Emoji.bundle */; };
+		6E4C4ECD1E9B2BC9007DECD2 /* face.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C4ECC1E9B2BC9007DECD2 /* face.plist */; };
+		6E4C4ED31E9B4430007DECD2 /* LTChatFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C4ED21E9B4430007DECD2 /* LTChatFaceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E4C4E511E976D4C007DECD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4C4E2F1E976D4C007DECD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E4C4E361E976D4C007DECD2;
+			remoteInfo = HEmojiKeyBoard;
+		};
+		6E4C4E5C1E976D4C007DECD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4C4E2F1E976D4C007DECD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E4C4E361E976D4C007DECD2;
+			remoteInfo = HEmojiKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E4C4E371E976D4C007DECD2 /* HEmojiKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEmojiKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4C4E3B1E976D4C007DECD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E4C4E3D1E976D4C007DECD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E4C4E3E1E976D4C007DECD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E4C4E401E976D4C007DECD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E4C4E411E976D4C007DECD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E4C4E441E976D4C007DECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E4C4E461E976D4C007DECD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4C4E491E976D4C007DECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E4C4E4B1E976D4C007DECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4C4E501E976D4C007DECD2 /* HEmojiKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEmojiKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4C4E541E976D4C007DECD2 /* HEmojiKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HEmojiKeyBoardTests.m; sourceTree = "<group>"; };
+		6E4C4E561E976D4C007DECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4C4E5B1E976D4C007DECD2 /* HEmojiKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEmojiKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4C4E5F1E976D4C007DECD2 /* HEmojiKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HEmojiKeyBoardUITests.m; sourceTree = "<group>"; };
+		6E4C4E611E976D4C007DECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4C4E741E97704C007DECD2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4C4E751E97704C007DECD2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6E4C4E761E97704C007DECD2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		6E4C4E771E97704C007DECD2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6E4C4E781E97704C007DECD2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		6E4C4E791E97704C007DECD2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		6E4C4E7A1E97704C007DECD2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		6E4C4E7B1E97704C007DECD2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		6E4C4E7C1E97704C007DECD2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6E4C4E7D1E97704C007DECD2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6E4C4E7E1E97704C007DECD2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		6E4C4E7F1E97704C007DECD2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		6E4C4E801E97704C007DECD2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		6E4C4E811E97704C007DECD2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		6E4C4E821E97704C007DECD2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		6E4C4E831E97704C007DECD2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		6E4C4E841E97704C007DECD2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6E4C4E851E97704C007DECD2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6E4C4E861E97704C007DECD2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6E4C4E871E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6E4C4E881E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6E4C4E891E97704C007DECD2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		6E4C4E8A1E97704C007DECD2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		6E4C4E8B1E97704C007DECD2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6E4C4E8C1E97704C007DECD2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6E4C4E8D1E97704C007DECD2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		6E4C4E9C1E9772B1007DECD2 /* ConfigFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigFace.h; sourceTree = "<group>"; };
+		6E4C4EA11E977695007DECD2 /* HEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEmojiCell.h; sourceTree = "<group>"; };
+		6E4C4EA21E977695007DECD2 /* HEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEmojiCell.m; sourceTree = "<group>"; };
+		6E4C4EA31E977695007DECD2 /* HEmojiKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEmojiKeyBoardView.h; sourceTree = "<group>"; };
+		6E4C4EA41E977695007DECD2 /* HEmojiKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEmojiKeyBoardView.m; sourceTree = "<group>"; };
+		6E4C4EA51E977695007DECD2 /* HEmojiPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEmojiPageView.h; sourceTree = "<group>"; };
+		6E4C4EA61E977695007DECD2 /* HEmojiPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEmojiPageView.m; sourceTree = "<group>"; };
+		6E4C4EA71E977695007DECD2 /* HGifFaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGifFaceCell.h; sourceTree = "<group>"; };
+		6E4C4EA81E977695007DECD2 /* HGifFaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGifFaceCell.m; sourceTree = "<group>"; };
+		6E4C4EAD1E977824007DECD2 /* HGifFacePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGifFacePageView.h; sourceTree = "<group>"; };
+		6E4C4EAE1E977824007DECD2 /* HGifFacePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGifFacePageView.m; sourceTree = "<group>"; };
+		6E4C4EB01E977A13007DECD2 /* HEmojiKindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEmojiKindCell.h; sourceTree = "<group>"; };
+		6E4C4EB11E977A13007DECD2 /* HEmojiKindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEmojiKindCell.m; sourceTree = "<group>"; };
+		6E4C4EB41E977AEE007DECD2 /* HEmojiFaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEmojiFaceModel.h; sourceTree = "<group>"; };
+		6E4C4EB51E977AEE007DECD2 /* HEmojiFaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEmojiFaceModel.m; sourceTree = "<group>"; };
+		6E4C4EB71E977E1C007DECD2 /* HKindFaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKindFaceModel.h; sourceTree = "<group>"; };
+		6E4C4EB81E977E1C007DECD2 /* HKindFaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKindFaceModel.m; sourceTree = "<group>"; };
+		6E4C4EBA1E978178007DECD2 /* HKindFaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKindFaceCell.h; sourceTree = "<group>"; };
+		6E4C4EBB1E978178007DECD2 /* HKindFaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKindFaceCell.m; sourceTree = "<group>"; };
+		6E4C4EBD1E97818E007DECD2 /* HKindEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKindEmojiCell.h; sourceTree = "<group>"; };
+		6E4C4EBE1E97818E007DECD2 /* HKindEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKindEmojiCell.m; sourceTree = "<group>"; };
+		6E4C4EC01E9B1951007DECD2 /* HEmojiManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEmojiManger.h; sourceTree = "<group>"; };
+		6E4C4EC11E9B1951007DECD2 /* HEmojiManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEmojiManger.m; sourceTree = "<group>"; };
+		6E4C4EC41E9B1C43007DECD2 /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
+		6E4C4EC51E9B1C43007DECD2 /* emotion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotion.plist; sourceTree = "<group>"; };
+		6E4C4EC61E9B1C43007DECD2 /* emotionToText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotionToText.plist; sourceTree = "<group>"; };
+		6E4C4ECA1E9B2A4B007DECD2 /* Emoji.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoji.bundle; sourceTree = "<group>"; };
+		6E4C4ECC1E9B2BC9007DECD2 /* face.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = face.plist; path = Emoji.bundle/face.plist; sourceTree = "<group>"; };
+		6E4C4ED11E9B4430007DECD2 /* LTChatFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTChatFaceView.h; sourceTree = "<group>"; };
+		6E4C4ED21E9B4430007DECD2 /* LTChatFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTChatFaceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E4C4E341E976D4C007DECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C4E4D1E976D4C007DECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C4E581E976D4C007DECD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E4C4E2E1E976D4C007DECD2 = {
+			isa = PBXGroup;
+			children = (
+				6E4C4E731E97704C007DECD2 /* Masonry */,
+				6E4C4E391E976D4C007DECD2 /* HEmojiKeyBoard */,
+				6E4C4E531E976D4C007DECD2 /* HEmojiKeyBoardTests */,
+				6E4C4E5E1E976D4C007DECD2 /* HEmojiKeyBoardUITests */,
+				6E4C4E381E976D4C007DECD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E4C4E381E976D4C007DECD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4E371E976D4C007DECD2 /* HEmojiKeyBoard.app */,
+				6E4C4E501E976D4C007DECD2 /* HEmojiKeyBoardTests.xctest */,
+				6E4C4E5B1E976D4C007DECD2 /* HEmojiKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4C4E391E976D4C007DECD2 /* HEmojiKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4EC31E9B1C43007DECD2 /* Resource */,
+				6E4C4EA01E977671007DECD2 /* view */,
+				6E4C4E3D1E976D4C007DECD2 /* AppDelegate.h */,
+				6E4C4EB31E977A6E007DECD2 /* Model */,
+				6E4C4E3E1E976D4C007DECD2 /* AppDelegate.m */,
+				6E4C4E9C1E9772B1007DECD2 /* ConfigFace.h */,
+				6E4C4E401E976D4C007DECD2 /* ViewController.h */,
+				6E4C4E411E976D4C007DECD2 /* ViewController.m */,
+				6E4C4E431E976D4C007DECD2 /* Main.storyboard */,
+				6E4C4E461E976D4C007DECD2 /* Assets.xcassets */,
+				6E4C4E481E976D4C007DECD2 /* LaunchScreen.storyboard */,
+				6E4C4E4B1E976D4C007DECD2 /* Info.plist */,
+				6E4C4E3A1E976D4C007DECD2 /* Supporting Files */,
+			);
+			path = HEmojiKeyBoard;
+			sourceTree = "<group>";
+		};
+		6E4C4E3A1E976D4C007DECD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4E3B1E976D4C007DECD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E4C4E531E976D4C007DECD2 /* HEmojiKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4E541E976D4C007DECD2 /* HEmojiKeyBoardTests.m */,
+				6E4C4E561E976D4C007DECD2 /* Info.plist */,
+			);
+			path = HEmojiKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		6E4C4E5E1E976D4C007DECD2 /* HEmojiKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4E5F1E976D4C007DECD2 /* HEmojiKeyBoardUITests.m */,
+				6E4C4E611E976D4C007DECD2 /* Info.plist */,
+			);
+			path = HEmojiKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		6E4C4E731E97704C007DECD2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4E741E97704C007DECD2 /* Info.plist */,
+				6E4C4E751E97704C007DECD2 /* MASCompositeConstraint.h */,
+				6E4C4E761E97704C007DECD2 /* MASCompositeConstraint.m */,
+				6E4C4E771E97704C007DECD2 /* MASConstraint+Private.h */,
+				6E4C4E781E97704C007DECD2 /* MASConstraint.h */,
+				6E4C4E791E97704C007DECD2 /* MASConstraint.m */,
+				6E4C4E7A1E97704C007DECD2 /* MASConstraintMaker.h */,
+				6E4C4E7B1E97704C007DECD2 /* MASConstraintMaker.m */,
+				6E4C4E7C1E97704C007DECD2 /* MASLayoutConstraint.h */,
+				6E4C4E7D1E97704C007DECD2 /* MASLayoutConstraint.m */,
+				6E4C4E7E1E97704C007DECD2 /* Masonry.h */,
+				6E4C4E7F1E97704C007DECD2 /* MASUtilities.h */,
+				6E4C4E801E97704C007DECD2 /* MASViewAttribute.h */,
+				6E4C4E811E97704C007DECD2 /* MASViewAttribute.m */,
+				6E4C4E821E97704C007DECD2 /* MASViewConstraint.h */,
+				6E4C4E831E97704C007DECD2 /* MASViewConstraint.m */,
+				6E4C4E841E97704C007DECD2 /* NSArray+MASAdditions.h */,
+				6E4C4E851E97704C007DECD2 /* NSArray+MASAdditions.m */,
+				6E4C4E861E97704C007DECD2 /* NSArray+MASShorthandAdditions.h */,
+				6E4C4E871E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6E4C4E881E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6E4C4E891E97704C007DECD2 /* View+MASAdditions.h */,
+				6E4C4E8A1E97704C007DECD2 /* View+MASAdditions.m */,
+				6E4C4E8B1E97704C007DECD2 /* View+MASShorthandAdditions.h */,
+				6E4C4E8C1E97704C007DECD2 /* ViewController+MASAdditions.h */,
+				6E4C4E8D1E97704C007DECD2 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		6E4C4EA01E977671007DECD2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4EA31E977695007DECD2 /* HEmojiKeyBoardView.h */,
+				6E4C4EA41E977695007DECD2 /* HEmojiKeyBoardView.m */,
+				6E4C4ED11E9B4430007DECD2 /* LTChatFaceView.h */,
+				6E4C4ED21E9B4430007DECD2 /* LTChatFaceView.m */,
+				6E4C4EBA1E978178007DECD2 /* HKindFaceCell.h */,
+				6E4C4EBB1E978178007DECD2 /* HKindFaceCell.m */,
+				6E4C4EBD1E97818E007DECD2 /* HKindEmojiCell.h */,
+				6E4C4EBE1E97818E007DECD2 /* HKindEmojiCell.m */,
+				6E4C4EB01E977A13007DECD2 /* HEmojiKindCell.h */,
+				6E4C4EB11E977A13007DECD2 /* HEmojiKindCell.m */,
+				6E4C4EA51E977695007DECD2 /* HEmojiPageView.h */,
+				6E4C4EA61E977695007DECD2 /* HEmojiPageView.m */,
+				6E4C4EAD1E977824007DECD2 /* HGifFacePageView.h */,
+				6E4C4EAE1E977824007DECD2 /* HGifFacePageView.m */,
+				6E4C4EA11E977695007DECD2 /* HEmojiCell.h */,
+				6E4C4EA21E977695007DECD2 /* HEmojiCell.m */,
+				6E4C4EA71E977695007DECD2 /* HGifFaceCell.h */,
+				6E4C4EA81E977695007DECD2 /* HGifFaceCell.m */,
+				6E4C4EC01E9B1951007DECD2 /* HEmojiManger.h */,
+				6E4C4EC11E9B1951007DECD2 /* HEmojiManger.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6E4C4EB31E977A6E007DECD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4EB41E977AEE007DECD2 /* HEmojiFaceModel.h */,
+				6E4C4EB51E977AEE007DECD2 /* HEmojiFaceModel.m */,
+				6E4C4EB71E977E1C007DECD2 /* HKindFaceModel.h */,
+				6E4C4EB81E977E1C007DECD2 /* HKindFaceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E4C4EC31E9B1C43007DECD2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6E4C4ECA1E9B2A4B007DECD2 /* Emoji.bundle */,
+				6E4C4EC41E9B1C43007DECD2 /* Emotion.bundle */,
+				6E4C4EC51E9B1C43007DECD2 /* emotion.plist */,
+				6E4C4EC61E9B1C43007DECD2 /* emotionToText.plist */,
+				6E4C4ECC1E9B2BC9007DECD2 /* face.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E4C4E361E976D4C007DECD2 /* HEmojiKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C4E641E976D4C007DECD2 /* Build configuration list for PBXNativeTarget "HEmojiKeyBoard" */;
+			buildPhases = (
+				6E4C4E331E976D4C007DECD2 /* Sources */,
+				6E4C4E341E976D4C007DECD2 /* Frameworks */,
+				6E4C4E351E976D4C007DECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HEmojiKeyBoard;
+			productName = HEmojiKeyBoard;
+			productReference = 6E4C4E371E976D4C007DECD2 /* HEmojiKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E4C4E4F1E976D4C007DECD2 /* HEmojiKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C4E671E976D4C007DECD2 /* Build configuration list for PBXNativeTarget "HEmojiKeyBoardTests" */;
+			buildPhases = (
+				6E4C4E4C1E976D4C007DECD2 /* Sources */,
+				6E4C4E4D1E976D4C007DECD2 /* Frameworks */,
+				6E4C4E4E1E976D4C007DECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E4C4E521E976D4C007DECD2 /* PBXTargetDependency */,
+			);
+			name = HEmojiKeyBoardTests;
+			productName = HEmojiKeyBoardTests;
+			productReference = 6E4C4E501E976D4C007DECD2 /* HEmojiKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E4C4E5A1E976D4C007DECD2 /* HEmojiKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4C4E6A1E976D4C007DECD2 /* Build configuration list for PBXNativeTarget "HEmojiKeyBoardUITests" */;
+			buildPhases = (
+				6E4C4E571E976D4C007DECD2 /* Sources */,
+				6E4C4E581E976D4C007DECD2 /* Frameworks */,
+				6E4C4E591E976D4C007DECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E4C4E5D1E976D4C007DECD2 /* PBXTargetDependency */,
+			);
+			name = HEmojiKeyBoardUITests;
+			productName = HEmojiKeyBoardUITests;
+			productReference = 6E4C4E5B1E976D4C007DECD2 /* HEmojiKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E4C4E2F1E976D4C007DECD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "俊松何";
+				TargetAttributes = {
+					6E4C4E361E976D4C007DECD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J4GVKYLAB7;
+						ProvisioningStyle = Automatic;
+					};
+					6E4C4E4F1E976D4C007DECD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E4C4E361E976D4C007DECD2;
+					};
+					6E4C4E5A1E976D4C007DECD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E4C4E361E976D4C007DECD2;
+					};
+				};
+			};
+			buildConfigurationList = 6E4C4E321E976D4C007DECD2 /* Build configuration list for PBXProject "HEmojiKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E4C4E2E1E976D4C007DECD2;
+			productRefGroup = 6E4C4E381E976D4C007DECD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E4C4E361E976D4C007DECD2 /* HEmojiKeyBoard */,
+				6E4C4E4F1E976D4C007DECD2 /* HEmojiKeyBoardTests */,
+				6E4C4E5A1E976D4C007DECD2 /* HEmojiKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E4C4E351E976D4C007DECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C4ECB1E9B2A4B007DECD2 /* Emoji.bundle in Resources */,
+				6E4C4EC81E9B1C43007DECD2 /* emotion.plist in Resources */,
+				6E4C4EC91E9B1C43007DECD2 /* emotionToText.plist in Resources */,
+				6E4C4E8E1E97704C007DECD2 /* Info.plist in Resources */,
+				6E4C4E4A1E976D4C007DECD2 /* LaunchScreen.storyboard in Resources */,
+				6E4C4ECD1E9B2BC9007DECD2 /* face.plist in Resources */,
+				6E4C4E471E976D4C007DECD2 /* Assets.xcassets in Resources */,
+				6E4C4E451E976D4C007DECD2 /* Main.storyboard in Resources */,
+				6E4C4EC71E9B1C43007DECD2 /* Emotion.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C4E4E1E976D4C007DECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C4E591E976D4C007DECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E4C4E331E976D4C007DECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C4E961E97704C007DECD2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6E4C4E421E976D4C007DECD2 /* ViewController.m in Sources */,
+				6E4C4E941E97704C007DECD2 /* MASViewConstraint.m in Sources */,
+				6E4C4EBC1E978178007DECD2 /* HKindFaceCell.m in Sources */,
+				6E4C4E3F1E976D4C007DECD2 /* AppDelegate.m in Sources */,
+				6E4C4E3C1E976D4C007DECD2 /* main.m in Sources */,
+				6E4C4EBF1E97818E007DECD2 /* HKindEmojiCell.m in Sources */,
+				6E4C4EC21E9B1951007DECD2 /* HEmojiManger.m in Sources */,
+				6E4C4E971E97704C007DECD2 /* View+MASAdditions.m in Sources */,
+				6E4C4EAF1E977824007DECD2 /* HGifFacePageView.m in Sources */,
+				6E4C4EAC1E977695007DECD2 /* HGifFaceCell.m in Sources */,
+				6E4C4E8F1E97704C007DECD2 /* MASCompositeConstraint.m in Sources */,
+				6E4C4E931E97704C007DECD2 /* MASViewAttribute.m in Sources */,
+				6E4C4E911E97704C007DECD2 /* MASConstraintMaker.m in Sources */,
+				6E4C4EAA1E977695007DECD2 /* HEmojiKeyBoardView.m in Sources */,
+				6E4C4E951E97704C007DECD2 /* NSArray+MASAdditions.m in Sources */,
+				6E4C4E981E97704C007DECD2 /* ViewController+MASAdditions.m in Sources */,
+				6E4C4E901E97704C007DECD2 /* MASConstraint.m in Sources */,
+				6E4C4E921E97704C007DECD2 /* MASLayoutConstraint.m in Sources */,
+				6E4C4EB61E977AEE007DECD2 /* HEmojiFaceModel.m in Sources */,
+				6E4C4ED31E9B4430007DECD2 /* LTChatFaceView.m in Sources */,
+				6E4C4EB21E977A13007DECD2 /* HEmojiKindCell.m in Sources */,
+				6E4C4EA91E977695007DECD2 /* HEmojiCell.m in Sources */,
+				6E4C4EB91E977E1C007DECD2 /* HKindFaceModel.m in Sources */,
+				6E4C4EAB1E977695007DECD2 /* HEmojiPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C4E4C1E976D4C007DECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C4E551E976D4C007DECD2 /* HEmojiKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4C4E571E976D4C007DECD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C4E601E976D4C007DECD2 /* HEmojiKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E4C4E521E976D4C007DECD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E4C4E361E976D4C007DECD2 /* HEmojiKeyBoard */;
+			targetProxy = 6E4C4E511E976D4C007DECD2 /* PBXContainerItemProxy */;
+		};
+		6E4C4E5D1E976D4C007DECD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E4C4E361E976D4C007DECD2 /* HEmojiKeyBoard */;
+			targetProxy = 6E4C4E5C1E976D4C007DECD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E4C4E431E976D4C007DECD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4C4E441E976D4C007DECD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E4C4E481E976D4C007DECD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4C4E491E976D4C007DECD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E4C4E621E976D4C007DECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4C4E631E976D4C007DECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E4C4E651E976D4C007DECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4GVKYLAB7;
+				INFOPLIST_FILE = HEmojiKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjs.HEmojiKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E4C4E661E976D4C007DECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4GVKYLAB7;
+				INFOPLIST_FILE = HEmojiKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjs.HEmojiKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E4C4E681E976D4C007DECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HEmojiKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjs.HEmojiKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEmojiKeyBoard.app/HEmojiKeyBoard";
+			};
+			name = Debug;
+		};
+		6E4C4E691E976D4C007DECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HEmojiKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjs.HEmojiKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEmojiKeyBoard.app/HEmojiKeyBoard";
+			};
+			name = Release;
+		};
+		6E4C4E6B1E976D4C007DECD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HEmojiKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjs.HEmojiKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HEmojiKeyBoard;
+			};
+			name = Debug;
+		};
+		6E4C4E6C1E976D4C007DECD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HEmojiKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjs.HEmojiKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HEmojiKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E4C4E321E976D4C007DECD2 /* Build configuration list for PBXProject "HEmojiKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C4E621E976D4C007DECD2 /* Debug */,
+				6E4C4E631E976D4C007DECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C4E641E976D4C007DECD2 /* Build configuration list for PBXNativeTarget "HEmojiKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C4E651E976D4C007DECD2 /* Debug */,
+				6E4C4E661E976D4C007DECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C4E671E976D4C007DECD2 /* Build configuration list for PBXNativeTarget "HEmojiKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C4E681E976D4C007DECD2 /* Debug */,
+				6E4C4E691E976D4C007DECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4C4E6A1E976D4C007DECD2 /* Build configuration list for PBXNativeTarget "HEmojiKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4C4E6B1E976D4C007DECD2 /* Debug */,
+				6E4C4E6C1E976D4C007DECD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E4C4E2F1E976D4C007DECD2 /* Project object */;
+}
